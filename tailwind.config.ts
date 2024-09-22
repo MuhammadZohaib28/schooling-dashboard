@@ -18,7 +18,7 @@ const config: Config = {
         skyblue: "#C3EBFA",
         lightskyblue: "#EDF9FD",
         purple: "#CFCEFF",
-        purplelight: "F1F0FF",
+        purplel: "#F1F0FF",
         yellow: "#FAE27C",
         yellowlight: "#FEFCE8"
 
@@ -27,7 +27,7 @@ const config: Config = {
     },
   },
   plugins: [
-    function ({ addUtilities }) {
+    function ({ addUtilities }: { addUtilities: Function }) {
       addUtilities({
         '.hide-scrollbar': {
           '-ms-overflow-style': 'none', /* IE and Edge */

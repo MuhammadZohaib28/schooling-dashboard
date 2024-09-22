@@ -30,3 +30,50 @@
     scrollbar-color: #333 #f1f1f1;
     /* Thumb and track colors for Firefox */
 }
+
+
+.react-calendar{
+    width: 100% !important;
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    font-family: 'Inter', sans-serif !important;
+    font-size: 1rem !important;
+    color: #333 !important;
+    background-color: #fff !important;
+    margin: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+
+}
+
+
+.react-calendar__tile--active{
+    background-color: #C3EBFA !important;
+    color: black !important;
+    border-radius: 10% !important;
+ 
+}
+
+.react-calendar__navigation__label__labelText{
+    font-weight: 600 !important;
+
+}
+
+.react-calendar__month-view__weekdays__weekday{
+    text-decoration: none;
+}
+
+abbr:where([title]) {
+    text-decoration: none;
+    cursor: help;
+}
+
+.react-calendar__tile--now{
+    background-color: #CFCEFF !important;
+    font-weight: 600 !important;
+    border-radius: 10% !important;
+}
